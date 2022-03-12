@@ -18,6 +18,10 @@ span {
   margin-bottom: 0.5rem;
 }
 
+.slim {
+  padding: 1rem;
+}
+
 .important {
   background-color: #DC2626;
   color: black;
