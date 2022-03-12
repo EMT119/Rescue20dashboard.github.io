@@ -4,9 +4,8 @@
 body {
   margin: 0.5rem;
   display: flex;
-  justify-content: center;
-  align-items: middle;
   flex-direction: column;
+  background-color: rgb(16, 23, 33);
 }
 span {
   font-size: 1.5rem;
@@ -23,4 +22,9 @@ span {
   background-color: #DC2626;
   color: black;
   font-weight: bold;
+}
+
+p {
+  color: white;
+  text-align: center;
 }
