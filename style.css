@@ -1,3 +1,25 @@
+* {
+  font-family: arial;
+}
+body {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  flex-direction: column;
+}
 span {
-  background-color: red;
+  text-align: center;
+  flex-grow: 1;
+  color: white;
+  background-color: #475569;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.important {
+  background-color: #DC2626;
+  color: black;
+  font-weight: bold;
 }
