@@ -2,7 +2,7 @@
   font-family: arial;
 }
 body {
-  margin: 0.5rem;
+  margin: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   background-color: rgb(16, 23, 33);
