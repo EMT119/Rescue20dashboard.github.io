@@ -81,3 +81,13 @@ tr.min-header > * {
   text-align: center;
   font-weight: bold;
 }
+
+button {
+  padding: 5px 10px;
+  color: white;
+  background-color: #047857;
+  border: 0px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+}
