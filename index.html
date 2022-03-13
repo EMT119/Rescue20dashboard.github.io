@@ -10,15 +10,18 @@
   <body>
     <table class="dark">
       <thead>
-        <th class="header" colspan=2>Unit Order</th>
+        <th class="header" colspan="2">Unit Order</th>
       </thead>
       <tr>
         <td>First out</td>
-        <td contenteditable="true">4</td>
+        <td id="unitone" contenteditable="true">4</td>
       </tr>
       <tr>
         <td>Second out</td>
-        <td contenteditable="true">3</td>
+        <td id="unittwo" contenteditable="true">3</td>
+      </tr>
+      <tr id="saveRow" style="display: hidden">
+        <td><button id="saveUnits">Save changes</button></td>  
       </tr>
     </table>
   </body>
