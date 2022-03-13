@@ -32,3 +32,52 @@ p {
   color: white;
   text-align: center;
 }
+
+table {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.dark tr:nth-child(odd) {
+  background-color: #475569;
+}
+
+table.dark tr:nth-child(even) {
+  background-color: #1e293b;
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+  width: auto;
+  word-spacing: 2px;
+  letter-spacing: 0.75px;
+  line-height: 1.35rem;
+  color: white;
+}
+
+table .header,
+tr.header > * {
+  background-color: #047857;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+table .sub-header,
+tr.sub-header > * {
+  background-color: #15803d;
+  text-align: center;
+  font-weight: bold;
+}
+
+table .min-header,
+tr.min-header > * {
+  background-color: #00796b;
+  text-align: center;
+  font-weight: bold;
+}
