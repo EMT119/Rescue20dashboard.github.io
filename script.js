@@ -21,6 +21,8 @@ function saveChanges() {
      unitOrder.first = unitOne.innerText;
   unitOrder.second = unitTwo.innerText;
   document.getElementById("saveRow").style.display = "none"; 
+    localStorage.setItem("firstOut", unitOrder.first);
+    localStorage.setItem("secondOut", unitOrder.second);
   } else {
     alert("Incorrect passcode");
     unitOne.innerText = unitOrder.first;
