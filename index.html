@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Rescue 20 Dashboard</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script defer src="script.js"></script>
   </head>
   <body>
-    <span>Meeting tomorrow @ 7pm</span>
+    <span>Meeting today @ 7pm</span>
     <table class="dark">
       <thead>
         <th class="header" colspan="2">Unit Order</th>
@@ -21,8 +21,10 @@
         <td>Second out</td>
         <td id="unittwo" contenteditable="true">3</td>
       </tr>
-      <tr id="saveRow" style="display:none; text-align: right">
-        <td colspan="2"><button onclick="saveChanges()">Save changes</button></td>  
+      <tr id="saveRow" style="display: none; text-align: right">
+        <td colspan="2">
+          <button onclick="saveChanges()">Save changes</button>
+        </td>
       </tr>
     </table>
   </body>
