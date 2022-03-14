@@ -18,6 +18,14 @@ span {
   margin-bottom: 0.5rem;
 }
 
+.large {
+  font-size: 3rem;
+}
+
+.center {
+  text-align: center;
+}
+
 .slim {
   padding: 1rem;
 }
@@ -66,7 +74,7 @@ tr.header > * {
   background-color: #047857;
   text-align: center;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.25rem;
 }
 
 table .sub-header,
