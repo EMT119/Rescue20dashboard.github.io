@@ -70,6 +70,10 @@ th {
   height: 5rem;
 }
 
+td {
+  padding-left: 1.5rem;
+}
+
 table .header,
 tr.header > * {
   background-color: #047857;
