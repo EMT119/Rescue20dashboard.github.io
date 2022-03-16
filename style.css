@@ -13,9 +13,11 @@ span {
   flex-grow: 1;
   color: white;
   background-color: #475569;
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: 5px;
   margin-bottom: 0.5rem;
+  letter-spacing: 0.15rem;
+  line-height: 3.5rem;
 }
 
 .large {
@@ -32,7 +34,7 @@ span {
 
 .important {
   background-color: #dc2626;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
