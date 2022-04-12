@@ -51,3 +51,11 @@ function saveChanges() {
     unitTwo.innerText = unitOrder.second;
   }
 }
+
+setInterval(() => {
+  let DO = ["Ben", "Ben", "Jeremy", "Jeremy", "Charlotte", "Charlotte", "Joey"];
+  let currentDate = new Date();
+  document.getElementById("dutyOfficer").innerText = `Duty Officer: ${
+    DO[currentDate.getDay()]
+  }`;
+}, 1000);
